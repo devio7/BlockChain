@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.Props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="BlockChain.API/BlockChain.API.csproj" />
+  <Project Path="BlockChain.Application/BlockChain.Application.csproj" Id="48c0c086-53f2-4060-8816-a0e775530996" />
+  <Project Path="BlockChain.Domain/BlockChain.Domain.csproj" Id="bba0e894-5e3e-488c-928c-db4926ebc5cf" />
+  <Project Path="BlockChain.FunctionalTests/BlockChain.FunctionalTests.csproj" Id="4da026e3-6afc-4117-b6e7-35992b4e6225" />
+  <Project Path="BlockChain.Infrastructure/BlockChain.Infrastructure.csproj" Id="7e537378-df5a-4a21-b55a-ca88b468f32e" />
+  <Project Path="BlockChain.IntegrationTests/BlockChain.IntegrationTests.csproj" Id="069bae55-acb9-411b-b702-96334229a775" />
+  <Project Path="BlockChain.UnitTests/BlockChain.UnitTests.csproj" Id="d284125d-0ce5-4e71-8323-14a2f9fd5918" />
+</Solution>

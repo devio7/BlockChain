@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Respawn" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlockChain.Domain\BlockChain.Domain.csproj" />
+    <ProjectReference Include="..\BlockChain.Infrastructure\BlockChain.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

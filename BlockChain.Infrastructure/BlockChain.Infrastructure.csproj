@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlockChain.Application\BlockChain.Application.csproj" />
+    <ProjectReference Include="..\BlockChain.Domain\BlockChain.Domain.csproj" />
+  </ItemGroup>
+</Project>
